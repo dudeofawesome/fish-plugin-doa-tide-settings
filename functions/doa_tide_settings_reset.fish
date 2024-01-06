@@ -21,7 +21,7 @@ function doa_tide_settings_reset \
     set --universal tide_left_prompt_suffix \ue0b0
 
     set --universal tide_right_prompt_frame_enabled false
-    set --universal tide_right_prompt_items status\x1ecmd_duration\x1econtext\x1ejobs\x1evirtual_env\x1ekubectl\x1egcloud\x1etime
+    set --universal tide_right_prompt_items status\x1ecmd_duration\x1econtext\x1ejobs\x1epython\x1ekubectl\x1egcloud\x1etime
     set --universal tide_right_prompt_prefix \ue0b2
     set --universal tide_right_prompt_separator_same_color \ue0b3
 
@@ -124,9 +124,9 @@ function doa_tide_settings_reset \
     set --universal tide_vi_mode_icon_replace REPLACE
     set --universal tide_vi_mode_icon_visual VISUAL
 
-    set --universal tide_virtual_env_bg_color 444444
-    set --universal tide_virtual_env_color 00AFAF
-    set --universal tide_virtual_env_icon \ue73c
+    set --universal tide_python_bg_color 444444
+    set --universal tide_python_color 00AFAF
+    set --universal tide_python_icon \ue73c
 
     set --universal tide_gcloud_color 000000
     set --universal tide_gcloud_bg_color 2079EF
